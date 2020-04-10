@@ -3,13 +3,13 @@
 module.exports = {
   url: 'https://mochalatte.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by Sewon Woo',
-  subtitle: 'Hello world',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
-  useKatex: false,
+  title: 'Mochalatte.dev',
+  subtitle: 'Mochalatte Blog',
+  copyright: '© 2020. Sewon Woo All rights reserved.',
+  disqusShortname: 'mochalatte',
+  postsPerPage: 5,
+  googleAnalyticsId: '',
+  useKatex: true,
   menu: [
     {
       label: 'Articles',
@@ -18,26 +18,22 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
     name: 'Sewon Woo',
-    photo: '/photo.jpg',
-    bio: '',
+    photo: '/emoji.png',
+    bio: '💻 Artificial Intelligence Engineer',
     contacts: {
       email: 'sewon.dev@gmail.com',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      facebook: 'onww1@naver.com',
+      telegram: '',
+      twitter: '',
+      github: 'onww1@naver.com',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'sewon.dev@gmail.com',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
