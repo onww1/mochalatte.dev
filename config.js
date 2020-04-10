@@ -16,7 +16,7 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'About',
       path: '/pages/about'
     }
   ],
@@ -26,13 +26,13 @@ module.exports = {
     bio: '💻 Artificial Intelligence Engineer',
     contacts: {
       email: 'sewon.dev@gmail.com',
-      facebook: 'onww1@naver.com',
+      facebook: 'sewon.woo',
       telegram: '',
       twitter: '',
-      github: 'onww1@naver.com',
+      github: 'onww1',
       rss: '',
       vkontakte: '',
-      linkedin: 'sewon.dev@gmail.com',
+      linkedin: 'sewon-woo',
       instagram: '',
       line: '',
       gitlab: '',
