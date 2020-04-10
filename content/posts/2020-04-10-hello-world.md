@@ -8,5 +8,6 @@ description: Test article
 category: introduction
 tags:
   - introduction
+socialImage: ''
 ---
 Hello, world!

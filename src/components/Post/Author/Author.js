@@ -9,7 +9,7 @@ const Author = () => {
 
   return (
     <div className={styles['author']}>
-      <p className={styles['author__bio']}>
+      {/* <p className={styles['author__bio']}>
         {author.bio}
         <a
           className={styles['author__bio-twitter']}
@@ -19,7 +19,7 @@ const Author = () => {
         >
           <strong>{author.name}</strong> on Twitter
         </a>
-      </p>
+      </p> */}
     </div>
   );
 };
