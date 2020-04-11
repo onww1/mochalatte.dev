@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Mochalatte Blog',
   copyright: '© 2020. Sewon Woo All rights reserved.',
   disqusShortname: 'mochalatte',
-  postsPerPage: 5,
+  postsPerPage: 4,
   googleAnalyticsId: '',
   useKatex: true,
   menu: [
