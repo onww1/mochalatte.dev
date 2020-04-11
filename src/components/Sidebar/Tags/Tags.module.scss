@@ -17,22 +17,46 @@
       border-radius: 50px;
 
       &-link {
-        font-size: $typographic-base-font-size;
-        color: $typographic-base-font-color;
-        font-weight: normal;
-        border: 0;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        &:hover,
-        &:focus {
-          color: $color-primary;
-          border-bottom: 1px solid $color-primary;
+        &-white {
+          font-size: $typographic-base-font-size;
+          color: $typographic-link-lighter-color;
+          font-weight: normal;
+          border: 0;
+          font-size: 10px;
+          font-weight: 600;
+          text-transform: uppercase;
+
+          &:hover,
+          &:focus {
+            color: $color-white;
+            border-bottom: 1px solid $color-white;
+          }
+
+          &--active {
+            color: $color-white;
+            border-bottom: 1px solid $color-white;
+          }
         }
 
-        &--active {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+        &-black {
+          font-size: $typographic-base-font-size;
+          color: $typographic-base-font-color;
+          font-weight: normal;
+          border: 0;
+          font-size: 10px;
+          font-weight: 600;
+          text-transform: uppercase;
+
+          &:hover,
+          &:focus {
+            color: $color-base;
+            border-bottom: 1px solid $color-base;
+          }
+
+          &--active {
+            color: $color-base;
+            border-bottom: 1px solid $color-base;
+          }
         }
       }
     }

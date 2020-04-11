@@ -14,31 +14,37 @@ type Props = {
 
 const Tags = ({ tags }: Props) => {
   const palette = getRandomPalette();
-  return (
-    <>
-      <ul className={styles['tags__list']}>
-        {tags.map(tag => {
-          let colorIndex = Math.floor(tag.totalCount / 2);
-          if (colorIndex >= 5) colorIndex = 4;
 
-          return (
-            <li
-              key={tag.fieldValue}
-              className={styles['tags__list-item']}
-              style={{ backgroundColor: palette[colorIndex] }}
+  let unit = 5;
+  for (const tag of tags) unit = Math.max(unit, tag.totalCount);
+  unit = Math.floor(unit / 5);
+
+  return (
+    <ul className={styles['tags__list']}>
+      {tags.map(tag => {
+        let colorIndex = Math.floor((tag.totalCount - 1) / unit);
+        colorIndex = Math.max(0, Math.min(4, colorIndex));
+
+        const colorType = colorIndex >= 3 ? 'white' : 'black';
+        return (
+          <li
+            key={tag.fieldValue}
+            className={styles['tags__list-item']}
+            style={{ backgroundColor: palette[colorIndex] }}
+          >
+            <Link
+              to={`/tag/${kebabCase(tag.fieldValue)}/`}
+              className={styles[`tags__list-item-link-${colorType}`]}
+              activeClassName={
+                styles[`tags__list-item-link-${colorType}--active`]
+              }
             >
-              <Link
-                to={`/tag/${kebabCase(tag.fieldValue)}/`}
-                className={styles['tags__list-item-link']}
-                activeClassName={styles['tags__list-item-link--active']}
-              >
-                {tag.fieldValue} ({tag.totalCount})
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-    </>
+              {tag.fieldValue} ({tag.totalCount})
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
   );
 };
 

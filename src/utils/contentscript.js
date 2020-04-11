@@ -20,11 +20,8 @@ const teal = ['#eeeeee', '#b2dfdb', '#4db6ac', '#00897b', '#004d40'];
 const yellowMd = ['#eeeeee', '#fff9c4', '#fff176', '#ffd835', '#f57f17'];
 
 // Theme from Me
-const unicorn = ['#eeeeee', '#6dc5fb', '#f6f68c', '#8affa4', '#f283d1'];
+const unicorn = ['#eeeeee', '#8affa4', '#f6f68c', '#6dc5fb', '#f283d1'];
 const summer = ['#eeeeee', '#eae374', '#f9d62e', '#fc913a', '#ff4e50'];
-
-// Theme from MoonAntonio
-const yellow = ['#eeeeee', '#d7d7a2', '#d4d462', '#e0e03f', '#ffff00'];
 
 const colors = {
   github,
@@ -41,8 +38,7 @@ const colors = {
   teal,
   yellowMd,
   summer,
-  unicorn,
-  yellow
+  unicorn
 };
 
 function randomProperty(obj) {
