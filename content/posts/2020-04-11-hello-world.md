@@ -8,6 +8,7 @@ description: 안녕하세요. Mochalatte 입니다.
 category: Introduction
 tags:
   - Introduction
+socialImage: ''
 ---
 안녕하세요. **Mochalatte**입니다.
 
