@@ -12,27 +12,27 @@ module.exports = {
   useKatex: true,
   menu: [
     {
-      label: 'Articles',
+      label: '📝 Articles',
       path: '/'
     },
     {
-      label: 'Daily',
+      label: '👨🏻‍💻 Daily',
       path: '/pages/daily'
     },
     {
-      label: 'Today I Learned',
+      label: '✏️ Today I Learned',
       path: '/pages/today-i-learned'
     },
     {
-      label: 'Algorithm',
+      label: '🎓 Algorithm',
       path: '/pages/algorithm'
     },
     {
-      label: 'Problem Solving',
+      label: '🤔 Problem Solving',
       path: '/pages/problem-solving'
     },
     {
-      label: 'About',
+      label: '🔎 About',
       path: '/pages/about'
     }
   ],

@@ -1,6 +1,6 @@
 ---
 template: page
-title: Problem Solving
+title: 🤔 Problem Solving
 slug: problem-solving
 draft: false
 ---

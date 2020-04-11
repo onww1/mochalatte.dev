@@ -1,6 +1,6 @@
 ---
 template: page
-title: Today I Learned
+title: ✏️ Today I Learned
 slug: today-i-learned
 draft: false
 ---

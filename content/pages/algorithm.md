@@ -1,6 +1,6 @@
 ---
 template: page
-title: Algorithm
+title: 🎓 Algorithm
 slug: algorithm
 draft: false
 ---

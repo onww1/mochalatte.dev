@@ -1,6 +1,6 @@
 ---
 template: page
-title: About
+title: 🔎 About
 slug: about
 draft: false
 ---

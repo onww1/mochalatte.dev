@@ -1,6 +1,6 @@
 ---
 template: page
-title: Daily
+title: 👨🏻‍💻 Daily
 slug: daily
 draft: false
 ---
