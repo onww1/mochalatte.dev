@@ -8,4 +8,4 @@ draft: false
 
 ## Article List
 
-* [Hello, world!](https://mochalatte.dev/posts/hello-world) | `Introduction`
+* nothing
