@@ -1,14 +1,14 @@
 ---
 template: post
-title: Hello, world!
 slug: hello-world
-draft: true
+draft: false
+socialImage: ""
+title: Hello, world!
 date: 2019-04-07T06:34:43.424Z
 description: 안녕하세요. Mochalatte 입니다.
 category: Introduction
 tags:
   - Introduction
-socialImage: ''
 ---
 안녕하세요. **Mochalatte**입니다.
 
