@@ -8,6 +8,4 @@ draft: false
 
 ## Article List
 
-|:Date:|:Title:|:Tags:|
-|`2020/04/11`|[Hello, world!](https://mochalatte.dev/posts/hello-world)|`Introduction`|
-
+* [Hello, world!](https://mochalatte.dev/posts/hello-world) | `Introduction`
