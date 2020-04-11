@@ -20,6 +20,18 @@ module.exports = {
       path: '/pages/daily'
     },
     {
+      label: 'Today I Learned',
+      path: '/pages/today-i-learned'
+    },
+    {
+      label: 'Algorithm',
+      path: '/pages/algorithm'
+    },
+    {
+      label: 'Problem Solving',
+      path: '/pages/problem-solving'
+    },
+    {
       label: 'About',
       path: '/pages/about'
     }
