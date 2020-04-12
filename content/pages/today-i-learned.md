@@ -8,6 +8,7 @@ draft: false
 
 ## Article List
 
-* [C++ System 함수 사용하기](https://mochalatte.dev/posts/today-i-learned/programming/cpp-system-func)
-* [Selenium으로 크롤링하기](https://mochalatte.dev/posts/today-i-learned/programming/py-crawling-selenium)
-* [Requests로 크롤링하기](https://mochalatte.dev/posts/today-i-learned/programming/py-crawling-request)
+* [C++ System 함수 사용하기](/posts/today-i-learned/programming/cpp-system-func)
+* [Selenium으로 크롤링하기](/posts/today-i-learned/programming/py-crawling-selenium)
+* [Requests로 크롤링하기](/posts/today-i-learned/programming/py-crawling-request)
+  

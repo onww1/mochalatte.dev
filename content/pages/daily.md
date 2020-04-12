@@ -8,4 +8,4 @@ draft: false
 
 ## Article List
 
-* [BOJ 디렉토리 정리 후기](https://mochalatte.dev/posts/daily/arrange-directory)
+* [BOJ 디렉토리 정리 후기](/posts/daily/arrange-directory)
