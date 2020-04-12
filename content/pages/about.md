@@ -3,6 +3,8 @@ template: page
 title: 🔎 About
 slug: about
 draft: false
+category: About
+socialImage: /emoji.png
 ---
 안녕하세요. **Mochalatte**입니다.
 ---
