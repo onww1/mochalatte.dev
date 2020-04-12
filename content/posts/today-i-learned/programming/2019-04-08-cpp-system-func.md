@@ -30,7 +30,7 @@ tags:
 
 우선 `system` 함수는 `stdlib.h` 라이브러리를 include하면 사용을 할 수 있고, **prototype**은 다음과 같습니다.
 
-```c++
+```cpp
 int system(const char* command);
 ```
 
@@ -38,7 +38,7 @@ prototype에서 알 수 있듯이, `system` 함수는 실행시키고자 하는 
 
 ### Example code
 
-```c++
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
