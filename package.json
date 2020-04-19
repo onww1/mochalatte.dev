@@ -59,6 +59,7 @@
     "gatsby-remark-autolink-headers": "^2.2.1",
     "gatsby-remark-copy-linked-files": "^2.2.1",
     "gatsby-remark-external-links": "0.0.4",
+    "gatsby-remark-grid-tables": "^0.1.0",
     "gatsby-remark-images": "^3.2.2",
     "gatsby-remark-katex": "^3.2.1",
     "gatsby-remark-prismjs": "^3.4.1",
@@ -79,7 +80,8 @@
     "react": "^16.13.1",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "remark-grid-tables": "^2.1.1"
   },
   "devDependencies": {
     "@babel/core": "7.9.0",
