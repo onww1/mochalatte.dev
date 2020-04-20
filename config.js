@@ -8,33 +8,33 @@ module.exports = {
   copyright: '© 2020. Sewon Woo All rights reserved.',
   disqusShortname: 'mochalatte',
   postsPerPage: 4,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-164058635-1',
   useKatex: true,
   menu: [
     {
       label: '📝 Articles',
-      path: '/'
+      path: '/',
     },
     {
       label: '👨🏻‍💻 Daily',
-      path: '/pages/daily'
+      path: '/pages/daily',
     },
     {
       label: '✏️ Today I Learned',
-      path: '/pages/today-i-learned'
+      path: '/pages/today-i-learned',
     },
     {
       label: '🎓 Algorithm',
-      path: '/pages/algorithm'
+      path: '/pages/algorithm',
     },
     {
       label: '🤔 Problem Solving',
-      path: '/pages/problem-solving'
+      path: '/pages/problem-solving',
     },
     {
       label: '🔎 About',
-      path: '/pages/about'
-    }
+      path: '/pages/about',
+    },
   ],
   author: {
     name: 'Sewon Woo',
@@ -55,7 +55,7 @@ module.exports = {
       weibo: '',
       codepen: '',
       youtube: '',
-      soundcloud: ''
-    }
-  }
+      soundcloud: '',
+    },
+  },
 };
