@@ -22,7 +22,7 @@ tags:
 
 ---
 
-## Day 01. Single Number
+## Day 01. Single Number [🔗](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/528/week-1/3283/)
 
 Given a **non-empty** array of integers, every element appears _twice_ except for one. Find that single one.
 
