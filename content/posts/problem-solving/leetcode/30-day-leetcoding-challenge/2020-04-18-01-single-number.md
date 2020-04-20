@@ -190,8 +190,8 @@ public:
    2. `a`가 `True`일 경우, `a` = `a ^ b` = `True ^ False` = `True`
 
 2. `b`가 `True`일 경우
-   1. `a`가 `False`일 경우, `a` = `a ^ b` = `True ^ False` = `True`
-   2. `a`가 `True`일 경우, `a` = `a ^ b` = `False ^ False` = `False`
+   1. `a`가 `False`일 경우, `a` = `a ^ b` = `False ^ True` = `True`
+   2. `a`가 `True`일 경우, `a` = `a ^ b` = `True ^ True` = `False`
 
 \
 위 결과를 살펴보면, `b`가 `False`일 경우 **XOR**을 하더라도 `a`의 값에 변화가 없고, `b`가 `True`일 경우 **XOR**을 하면 `a`의 값이 반전되는 것을 확인할 수 있습니다. 즉, `True` 값을 가지고 어떤 값에 **XOR**을 취하면 대상 값은 반전이 된다는 것을 알 수 있습니다. 이러한 성질을 이용하면 이 문제를 자료구조 없이 풀 수 있습니다.
