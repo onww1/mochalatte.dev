@@ -124,12 +124,12 @@ public:
 두 번째 접근에 대한 코드는 다음과 같습니다.
 
 ```cpp
-#include <set>
+#include <unordered_set>
 
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        set<int> data;  // 수를 저장하고 삭제할 set
+        unordered_set<int> data;  // 수를 저장하고 삭제할 set
         for (int num : nums) {
             bool exists = (data.count(num) > 0);
             if (exists) {  // set에 존재하면 두 번 본 수
@@ -143,7 +143,8 @@ public:
     }
 };
 ```
-> C++의 set은 tree로 구현되어 있기 때문에 `Tree Set`과 같고, 시간 복잡도는 $O(N log N)$이 됩니다.
+
+> C++의 set은 tree로 구현되어 있기 때문에 `Tree Set`과 같고, unordered_set은 hash table로 구현되어 있기 때문에 `Hash Set`과 같습니다.
 
 ---
 
@@ -161,12 +162,12 @@ public:
 세 번째 접근에 대한 코드는 다음과 같습니다.
 
 ```cpp
-#include <set>
+#include <unordered_set>
 
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        set<int> data;  // 고유한 수만 저장할 set
+        unordered_set<int> data;  // 고유한 수만 저장할 set
         int totalSum = 0;  // nums 배열의 전체 합을 저장할 변수
         int uniqueSum = 0;  // 고유한 수의 합을 저장할 변수
         for (int num : nums) {
@@ -182,7 +183,7 @@ public:
 };
 ```
 
-> 이 코드도 마찬가지로 C++의 set이 tree로 구현되어 있어서 실제 시간 복잡도는 O(NlogN)입니다.
+> 만약 unordered_set이 아닌 일반 set을 사용한다면 tree로 구현되어 있기 때문에 시간 복잡도는 $O(NlogN)이 됩니다.
 
 ---
 
