@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://mochalatte.netlify.com',
+  url: 'https://mochalatte.dev',
   pathPrefix: '/',
   title: 'Mochalatte.dev',
   subtitle: 'Mochalatte Blog',
