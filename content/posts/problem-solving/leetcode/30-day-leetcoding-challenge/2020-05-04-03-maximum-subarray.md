@@ -147,7 +147,7 @@ public:
 
 이 코드의 시간 복잡도는 어떻게 될까요? 정답은 바로 $O(NlogN)$입니다. 그 이유는 아래 그림과 같이 `nums` 배열을 절반씩 나누어 내려가면서 각각의 구간을 전부 훑게 되는데, 쪼개서 내려가는 깊이가 $logN$이고, 전체 원소의 갯수가 $N$이기 때문에 총 $NlogN$이 되는 것입니다.
 
-![Day03-sol3](../../../../../static/media/problem-solving/leetcode/30-day-leetcoding-challenge/day03-sol3.png)
+![Day03-sol3](/media/problem-solving/leetcode/30-day-leetcoding-challenge/day03-sol3.png)
 
 ---
 
