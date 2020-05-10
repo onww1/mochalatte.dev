@@ -11,6 +11,7 @@ tags:
   - Problem Solving
   - LeetCode
   - 30 Day Challenge
+  - 비트 연산 (Bit Manipulation)
 ---
 
 \
@@ -185,7 +186,7 @@ public:
 
 ---
 
-### 네 번째 접근 : 비트 조작 (Bit Manipulation)
+### 네 번째 접근 : 비트 연산 (Bit Manipulation)
 
 \
 위 두 접근의 경우 `Hash Set`을 이용하면 문제에서 요구하는 대로 선형 시간 안에 계산할 수 있습니다. 하지만 추가 자료구조를 사용하기 때문에 두 접근 모두 공간 복잡도가 $O(N)$이 됩니다. 그런데 문제에서는 추가 메모리를 사용하지 않고 해결을 할 수 있는지 물었습니다. (*Could you implement it without using extra memory?*) 이는 공간 복잡도 $O(1)$으로 문제를 해결해보라는 의미입니다. 따라서 문제 해결을 위해 주어진 수들을 저장하는 행위를 해서는 안 됩니다. 이게 어떻게 가능할까요? 이를 위해 먼저 비트 연산에 대해서 알아보겠습니다.

@@ -11,6 +11,7 @@ tags:
   - Problem Solving
   - LeetCode
   - May LeetCoding Challenge
+  - 이분 탐색 (Binary Search)
 ---
 
 \
